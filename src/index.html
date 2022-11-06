@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lexend+Exa:wght@600&family=Urbanist:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="card">Looking for a university to apply? We are here to help you
+    </div>
+      <div class="search">
+    <h1>UNIVERSITY LIBRARY</h1>
+    <br>
+    <h3>Fill in the blanks to get 5 recommendations</h3>
+    <p class="subheader"><strong>* The result will be appear at the bottom</strong></p>
+    <br>
+    <!-- get input from user -->
+    Country
+    <br>
+    <input type="text" placeholder="Enter country" id="country">
+
+    <br><br>
+    Higher education category
+    <br>
+    <input type="text" placeholder="University/College" id="place">
+    <br><br>
+    <button class="button" onClick="buttonClicked()">Search</button>
+  </div>
+
+  <script src="script.js"></script>
+  
+  
+ <div class="suggestion">
+ <h1 class="textcenter">SUGGESTION</h1>
+
+ <p class="textcenter">These are 5 suggestions of universities/colleges from the country that you are looking for! Click the link to visit its website!</p>
+    <hr>
+    <button class="crud" onClick="crud()">ADD TO WISHLIST</button>
+    <br>
+    <!-- print 5 universities and its links based on country -->
+    <p id="list" class="list"></p>
+    <a id="link" style="padding-right:90px;"></a>
+
+</div>
+    <p id="p3"></p>
+    <p id="p4"></p>
+  </body>
+</html>

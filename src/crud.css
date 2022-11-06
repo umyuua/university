@@ -1,0 +1,70 @@
+.mainWrapper{
+    margin: 70px;
+  }
+
+.body{
+  overflow: scroll;
+  background-color: rgb(185, 185, 244);
+}
+
+h1{
+  text-align: center;
+  color:white;
+  font-family: 'Urbanist', sans-serif;
+  border:3px solid rgb(97, 73, 164);
+}
+
+form{
+  font-family: 'Urbanist', sans-serif;
+  color:black;
+}
+
+.label2{
+  font-size:17px;
+}
+
+.field{
+  width:10px;
+}
+
+.center{
+  margin-left:400px;
+  margin-right:400px;
+}
+
+.button {
+  background-color: rgb(97, 73, 164); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+  
+.button:hover{
+  background-color:#d3cbf0;
+  color:black;
+}
+
+.exit {
+  background-color: rgb(221, 44, 44); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+  
+.exit:hover{
+  background-color:rgb(200, 96, 96);
+  color:white;
+}
+
