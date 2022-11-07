@@ -1,8 +1,8 @@
 function buttonClicked(){
     // put variable on user input
     var country = document.getElementById("country").value;
-    var place = document.getElementById("place").value;
-    fetch(`http://universities.hipolabs.com/search?name=${place}&country=${country}`)
+    var category = document.getElementById("category").value;
+    fetch(`http://universities.hipolabs.com/search?name=${category}&country=${country}`)
     .then((response) => response.json())
     .then((data) => {
         
@@ -13,7 +13,7 @@ function buttonClicked(){
             alert("No result found. \nREMINDER : Kindly recheck your spelling. \nFor non-Malaysia & Indonesia country enter 'University'. \nFor Malaysia enter 'Universiti'. \nFor Indonesia enter 'Universitas'.") 
         }
         else{
-            for(var i=3; i<8; i++){
+            for(var i=8; i<13; i++){
 
                 //print out 5 names of university in entered country
                 console.log(data[i].name);
@@ -37,5 +37,5 @@ function buttonClicked(){
 }
 
 function crud(){
-    window.location.href = "crud.html"
+    window.location.href="crud.html";
 }
